@@ -1,0 +1,48 @@
+@media (max-width: 1140px) {}
+
+
+/* max-width: 1140px; */
+
+@media (min-width: 1140px) {}
+
+
+/* max-width: 960px; */
+
+@media (max-width: 960px) {}
+
+
+/* max-width: 720px; */
+
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {
+    .chat-app.btn {
+        display: none !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .chat-app.btn {
+        display: none !important;
+    }
+    .c-container {
+        display: none !important;
+    }
+    .sticky-container {
+        right: -160px !important;
+        top: 30vh !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .chat-app.btn {
+        display: none;
+    }
+    .sticky-container {
+        right: -161px !important;
+        top: 45vh;
+    }
+    .c-container {
+        display: none;
+    }
+}
